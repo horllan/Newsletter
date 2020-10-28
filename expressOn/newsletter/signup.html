@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>newsletter signup</title>
+
+    <link rel="stylesheet" href="/expressOn/newsletter/main.css" />
+    <link
+      rel="stylesheet"
+      href="/bootstrap-4.5.2/bootstrap-4.5.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="jumbotron text-center">
+      <h2>Followers of Christ Gospel Mission</h2>
+      <h6>Newsletter SignUp</h6>
+      <form action="/" method="POST">
+        <input
+          class="form-control first-input"
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="First Name"
+          autofocus
+          required
+        />
+        <input
+          class="form-control second-input"
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Last Name"
+          required
+        />
+        <input
+          class="form-control email-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <button class="btn-lg btn-primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </body>
+</html>
